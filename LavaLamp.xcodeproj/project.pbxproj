@@ -22,7 +22,7 @@
 		3C5E826D16A7658E00F6B437 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5E826B16A7658E00F6B437 /* MainStoryboard_iPad.storyboard */; };
 		3C5E826F16A7658E00F6B437 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3C5E826E16A7658E00F6B437 /* Shader.fsh */; };
 		3C5E827116A7658E00F6B437 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 3C5E827016A7658E00F6B437 /* Shader.vsh */; };
-		3C5E827416A7658E00F6B437 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E827316A7658E00F6B437 /* ViewController.m */; };
+		3C5E827416A7658E00F6B437 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E827316A7658E00F6B437 /* ViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,9 @@
 		3C5E826E16A7658E00F6B437 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		3C5E827016A7658E00F6B437 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		3C5E827216A7658E00F6B437 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C5E827316A7658E00F6B437 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C5E827316A7658E00F6B437 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		3C5E827A16A7664900F6B437 /* Blobs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Blobs.h; sourceTree = "<group>"; };
+		3C5E827B16A7667700F6B437 /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +106,10 @@
 				3C5E826E16A7658E00F6B437 /* Shader.fsh */,
 				3C5E827016A7658E00F6B437 /* Shader.vsh */,
 				3C5E827216A7658E00F6B437 /* ViewController.h */,
-				3C5E827316A7658E00F6B437 /* ViewController.m */,
+				3C5E827316A7658E00F6B437 /* ViewController.mm */,
 				3C5E825716A7658E00F6B437 /* Supporting Files */,
+				3C5E827A16A7664900F6B437 /* Blobs.h */,
+				3C5E827B16A7667700F6B437 /* Shader.h */,
 			);
 			path = LavaLamp;
 			sourceTree = "<group>";
@@ -195,7 +199,7 @@
 			files = (
 				3C5E825D16A7658E00F6B437 /* main.m in Sources */,
 				3C5E826116A7658E00F6B437 /* AppDelegate.m in Sources */,
-				3C5E827416A7658E00F6B437 /* ViewController.m in Sources */,
+				3C5E827416A7658E00F6B437 /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
